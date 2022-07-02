@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+body {
+    overflow-x: hidden !important;
+    background: #395db7 !important;
+    font-family: 'Roboto', sans-serif !important;
+    zoom: 90% !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 200 !important;
+    /* color: #FFF !important; */
+    /* font-size: 14px; */
+}
+
+.mobile_login_icon {
+    font-size: 20px !important;
+    color: #0053BA !important;
+}
+
+.navbar-toggler {
+    font-size: 23px !important;
+    color: #FFF;
+}
+
+.btn {
+    padding: 16px 25px !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    border-radius: 15px !important;
+    font-size: 14px !important;
+}
+
+header .btn{
+    padding: 9px 17px !important;
+}
+
+.btn:hover {
+    transition: 0.2s ease-in-out;
+    transform: translateY(-4px) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(220.75deg, #6691F0 -22.63%, #2D59C0 152.22%);
+    font-weight: 200 !important;
+    border: none !important;
+}
+
+.btn-outline-light {
+    font-weight: 200 !important;
+}
+
+.btn-outline-light:hover{
+    color: #000 !important;
+}
+
+/*======================================
+       Banner Start
+    ========================================*/
+
+.banner_container .gradient_1 {
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.banner_container .line{
+    position: absolute;
+    right: 300px !important;
+    top: 120px !important;
+}
+
+.banner {
+    margin-top: 50px !important;
+}
+
+.banner p {
+    color: #AFC5F9 !important;
+}
+
+.banner .btn {
+    padding: 16px 25px !important;
+}
+
+.banner a {
+    color: #AFC5F9 !important;
+}
+
+.banner .people img {
+    width: 110px;
+}
+
+.banner .people p {
+    font-size: 12px;
+}
+
+.app-download-area {
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+.app-image {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.app-image img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.app-image .main-image img:nth-child(2) {
+    position: absolute;
+    right: -100px;
+    top: 0;
+}
+
+.app-image .main-mobile-image {
+    display: none;
+}
+
+.app-image .circle-img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-55%);
+    transform: translateY(-55%);
+    z-index: -1;
+    right: 0;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.app-image .circle-img img {
+    -webkit-animation-name: rotateMe;
+    animation-name: rotateMe;
+    -webkit-animation-duration: 35s;
+    animation-duration: 35s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.app-download-content {
+    padding-left: 20px;
+}
+
+.app-download-content h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bar {
+    height: 5px;
+    width: 90px;
+    background: #ef6c0073;
+    margin: 20px 0 25px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ef6a00;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+.bar2 {
+    height: 5px;
+    width: 90px;
+    background: #195644be;
+    margin: 20px 0 25px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.bar2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #195644;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+.app-download-content p {
+    margin-bottom: 0;
+}
+
+.app-download-content .btn-box {
+    margin-top: 25px;
+}
+
+
+/*======================================
+             Banner  Ends
+========================================*/
+
+/* TRUSTED */
+
+.trusted h4 {
+    color: #FFF !important;
+}
+
+.trusted img {
+    width: 150px;
+}
+
+/* TRUSTED END */
+
+/* IMPORTANT START */
+
+.important {
+    background: #234495;
+    box-shadow: 0px 5px 26px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+    .important {
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+    .align_Center {
+        text-align: center !important;
+        margin: auto !important;
+    }
+}
+
+.important .card {
+    background: #4066C7;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    height: 280px;
+}
+
+.important .card img {
+    width: 50px !important;
+}
+
+/* IMPORTANT END */
+
+/* FEATURES */
+
+.features img {
+    width: 400px;
+}
+
+.features .mark_sign img {
+    width: 14px !important;
+    margin-right: 10px !important;
+}
+
+@media (max-width: 767px) {
+    .features {
+        padding: 0 50px;
+    }
+
+    .sm_image {
+        display: none !important;
+    }
+}
+
+
+@media (min-width: 767px) {
+    .bg_image {
+        display: none;
+    }
+}
+
+/* SECRET */
+
+.secret {
+    /* background: linear-gradient(85.42deg, #395DB7 -21.48%, #2C4176 137.1%); */
+    background: url('../img/secret.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* SECRET END */
+
+
+/* FOOTER */
+
+footer{
+    background: linear-gradient(85.61deg, #395DB7 32.63%, #30509F 105.92%);
+    color: #FFF !important;
+}
+
+footer img {
+    width: 230px !important;
+}
+
+footer a{
+    color: #FFF !important;
+}
+
+@media (max-width: 991px) {
+    footer{
+        text-align: center !important;
+    }
+}
+
+footer p {
+    margin-bottom: 10px !important;
+    font-weight: 200 !important;
+    font-size: 13px !important;
+}
+
+footer div {
+    font-weight: 200 !important;
+    font-size: 13px !important;
+}
+
+footer i {
+    margin-top: 300px !important;
+    font-size: 25px;
+    margin-right: 10px !important;
+}
+
+.copyright .icon{
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 767px) {
+
+    .copyright .icon{
+        margin-top: 40px !important;
+        display: flex;
+        justify-content: center !important;
+    }
+    
+}
+
+.copyright i {
+    font-size: 22px !important;
+    margin-right: 10px !important;
+}
+
+/* FEED BACK */
+
+.feed_back .card{
+    border-radius: 0 !important;
+}
+
+.feed_back .card .quote i {
+    font-size: 50px;
+    position: absolute;
+    right: 10px !important;
+    top: -10px !important;
+    color: #013F6B;
+}
+
+.feed_back .card .customer img {
+    position: absolute;
+    right: 20px !important;
+    bottom: 20px !important;
+    border-radius: 50%;
+}
+
+
+/* FIXED HEADER */
+.fixed {
+    background-color: #fff;
+    color: #000 !important;
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    z-index: 1100;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: none;
+    box-shadow: inset 0rem 0rem 0.0625rem 0.0625rem rgb(255 255 255 / 90%),
+        0rem 1.25rem 1.6875rem 0rem rgb(0 0 0 / 5%);
+    -webkit-backdrop-filter: saturate(200%) blur(1.875rem);
+    backdrop-filter: saturate(200%) blur(1.875rem);
+    background-color: rgba(255, 255, 255, 0.937);
+    position: -webkit-fixed !important;
+    position: fixed !important;
+}
+
+@media (max-width: 991px) {
+    .offcanvas{
+        height: 160vh !important;
+        color: #000 !important;
+    }
+    .offcanvas .nav-link{
+        color: #000 !important;
+    }
+}
